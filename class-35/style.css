@@ -1,0 +1,92 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.section-absulote-bg{
+	background-image: url(img/hover3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.section-absulote-bg-2{
+	background-image: url(img/videobg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*========================   Nav manu ==================*/
+.section-absulote-bg {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #ddd;
+	z-index: 2
+}
+.section-padding {
+	background-color: #222931;
+	color: #bbbec0;
+	line-height: 1.7;
+	font-size: 13px;
+	position: relative;
+	z-index: 1;
+	padding: 80px 0;
+}
+.section-padding h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
+.border-btn {
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 7px 25px;
+  border: 1px solid#ddd;
+  margin-top: 21px;
+}
+.box-content {
+	position: relative;
+	padding-left: 40px;
+	padding-right: 70px;
+}
+.box-content::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 1px;
+  content: "";
+  background: #70747a;
+}
+.absulote-bg-area {
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+.absulote-bg-left .section-absulote-bg {
+	right: auto;
+}
+.absulote-bg-left .box-content {
+	margin-left: 80px;
+	padding-right: 0;
+}
+.section-absulote-bg::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	content: "";
+	opacity: .5;
+	z-index: -1;
+}
+
+
+
